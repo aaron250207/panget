@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="welcomeSection">
+        <h1>Hello, Welcome to personal diary!!!</h1>
+        <button id="startButton">Start!</button>
+    </div>
+
+    <div id="loginSection" style="display: none;">
+        <label for="username">Username:</label>
+        <input type="text" id="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password"><br><br>
+        <button id="submitBtn">Submit</button>
+    </div>
+
+    <div id="successSection" style="display: none;">
+        <h2>Login Successful!</h2>
+        <button id="proceedBtn">Proceed</button>
+    </div>
+
+    <div id="diarySection" style="display: none;">
+        <h2>Diary</h2>
+        <textarea id="diaryInput" rows="10" cols="50"></textarea><br><br>
+        <button id="saveBtn">Save Entry</button>
+        <ul id="entriesList"></ul>
+        <button id="exitBtn">Exit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
